@@ -1,21 +1,22 @@
-import Agent from "@/components/Agent";
-import { getCurrentUser } from "@/lib/actions/auth.action";
+// @/components/Agent.tsx
+import React from "react";
 
-const Page = async () => {
-  const user = await getCurrentUser();
+interface AgentProps {
+  userName: string;
+  userId: string | undefined;
+  profileImage: string | undefined;  // Type the profileImage as string | undefined
+  type: "generate";
+}
 
+const Agent: React.FC<AgentProps> = ({ userName, userId, profileImage, type }) => {
   return (
-    <>
-      <h3>Interview generation</h3>
-
-      <Agent
-        userName={user?.name!}
-        userId={user?.id}
-        profileImage={user?.profileURL}
-        type="generate"
-      />
-    </>
+    <div>
+      <h4>{userName}</h4>
+      {profileImage && <img src={profileImage} alt={userName} />}
+      <p>User ID: {userId}</p>
+      <p>Type: {type}</p>
+    </div>
   );
 };
 
-export default Page;
+export default Agent;

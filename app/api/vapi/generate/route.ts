@@ -5,6 +5,10 @@ import { db } from "@/firebase/admin";
 import { getRandomInterviewCover } from "@/lib/utils";
 
 export async function POST(request: Request) {
+  if (typeof window !== "undefined") {
+    return Response.json({ error: "This API must be run on the server" }, { status: 400 });
+  }
+
   const { type, role, level, techstack, amount, userid } = await request.json();
 
   try {
@@ -26,9 +30,9 @@ export async function POST(request: Request) {
     });
 
     const interview = {
-      role: role,
-      type: type,
-      level: level,
+      role,
+      type,
+      level,
       techstack: techstack.split(","),
       questions: JSON.parse(questions),
       userId: userid,
