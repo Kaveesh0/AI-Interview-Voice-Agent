@@ -3,6 +3,9 @@
 ## Overview
 Welcome to the **AI Mock Interview System** project! This application leverages modern technologies like **Next.js**, **Tailwind CSS**, **Vapi**, **Firebase**, and more to create a real-world, hands-on experience for aspiring developers to enhance their interview skills. The goal is to simulate realistic technical interviews, offering AI-powered feedback to help you improve your performance and grow your portfolio.
 
+![Image](https://github.com/user-attachments/assets/48560162-81c0-4b0d-bfca-80b933166fb7)
+
+
 ### Key Features
 - **Real-time Mock Interviews**: Engage in live, simulated technical interviews with randomized questions, creating an authentic interview experience.
 - **AI-Powered Feedback**: Get personalized, AI-generated feedback based on your responses, helping you understand strengths and areas for improvement.
@@ -31,4 +34,12 @@ Welcome to the **AI Mock Interview System** project! This application leverages 
   - [SpeechRecognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) (for voice input in mock interviews)
   - [Dark Mode Toggle](https://dev.to/dhruv1106/how-to-add-a-dark-mode-toggle-to-your-nextjs-app-with-tailwindcss-4f0c) (for theme customization)
 
----
+
+
+   <h2><b>UI</b></h2>
+
+
+![Image](https://github.com/user-attachments/assets/cd4b128d-633f-4002-a1a6-3db7e91bb783)
+
+
+![Image](https://github.com/user-attachments/assets/58636d9d-1acb-4fcd-b640-18877a61dd69)
