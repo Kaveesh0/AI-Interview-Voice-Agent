@@ -1,4 +1,4 @@
- AI  Interview Voice Agent
+<H1> AI  Interview Voice Agent</H1>
 
 ## Overview
 Welcome to the **AI Mock Interview System** project! This application leverages modern technologies like **Next.js**, **Tailwind CSS**, **Vapi**, **Firebase**, and more to create a real-world, hands-on experience for aspiring developers to enhance their interview skills. The goal is to simulate realistic technical interviews, offering AI-powered feedback to help you improve your performance and grow your portfolio.
@@ -37,6 +37,8 @@ Welcome to the **AI Mock Interview System** project! This application leverages 
 
 
    <h2><b>UI</b></h2>
+
+ ![Image](https://github.com/user-attachments/assets/d3d7c490-1abf-4137-bc2a-2f5748b8bcfe)
 
 
 ![Image](https://github.com/user-attachments/assets/cd4b128d-633f-4002-a1a6-3db7e91bb783)
